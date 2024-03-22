@@ -230,7 +230,7 @@ footer ul {
     display: flex;
     width: 100%;
     height: 100vh;
-    background-position: center center;
+    background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     justify-content: center;
@@ -326,42 +326,65 @@ footer ul {
 
 
 
-.lifeCajas{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    
-    gap: 20px;
-    
+.contenedor{
+    display: grid;
+    height: 150vh;
+    gap: 20px; 
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
 }
 
+.col-1{
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/img/filtro.jpg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 100%;
 
-.lifeCajitas{
-    width: 50%;
-    text-align: end;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.lifeCajitas1{
     border: 2px solid rgb(10, 60, 66);
     border-radius: 10px;
-    
+    grid-column: 2/3;
+    background-color: white;
+}
+.lifeCajitas2{
+    border: 2px solid rgb(8, 100, 110);
+    border-radius: 10px;
+    grid-column: 2/3;
+    background-color: white;
+}
+.lifeCajitas3{
+    border: 2px solid rgb(10, 60, 66);
+    border-radius: 10px;
+    grid-column: 2/3;
+    background-color: white;
+}
+.lifeCajitas4{
+    border: 2px solid rgb(10, 60, 66);
+    border-radius: 10px;
+    grid-column: 2/3;
+    background-color: white;
 }
 
-.lifeCajitas h3{
+
+.contenedor h3{
 padding: 7px;
 }
 
-.lifeCajitas p{
+.contenedor p{
 padding: 7px;
 }
 
-.lifeCajitas ul{
-padding: 7px;
+.contenedor ul{
+    list-style: none;
+    padding: 7px;
 }
-
-
-.divFiltro{
-    text-align: start;
-    width: 50%;
-}
-
 
 
 
