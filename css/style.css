@@ -60,9 +60,10 @@ main {
     min-height: 68.75rem;
 }
 
-sectionIndex {
+.sectionIndex {
     display: flex;
-    height: 100%;
+    flex-direction: column;
+    align-content: center;
 }
 
 
@@ -83,6 +84,10 @@ sectionIndex {
 }
 
 
+.carouselSlide{
+    padding-block: 30px;
+
+}
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -93,7 +98,7 @@ sectionIndex {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff2d;
 }
 
 
@@ -105,6 +110,7 @@ sectionIndex {
 
 
 .carousel-inner {
+    width: 700px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -122,14 +128,15 @@ sectionIndex {
 /* footer  */
 
 footer ul {
+    width: 100%;
     background-color: #e9c696;
     display: flex;
     text-align: center;
     list-style: none;
     flex-flow: nowrap;
     justify-content: space-around;
-    margin-bottom: 0;
-
+    bottom: 0;
+    color: #fff;
 
 }
 
@@ -355,6 +362,16 @@ footer ul {
     grid-row: 1/4;
 }
 
+.col-1 table {
+    display: flex;
+    padding : 10px;
+}
+
+.col-1 table tr{
+    justify-content: space-between;
+
+}
+
 .lifeFiltro {
     width: 100%;
     padding: 10px;
@@ -411,29 +428,124 @@ footer ul {
 
 /* media queries */
 
-@media (max-width: 780px) {
-    nav ul li a {
-        color: black;
+@media (max-width: 768px) {
+
+    header {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        
     }
 
     nav .navegacion {
-        width: 100%;
-        height: 0;
+        display: flex;
         overflow: hidden;
     }
 
     nav ul {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        align-content: center;
         padding: 8px 0px;
     }
 
-    nav label {
-        display: inline-flex;
-        cursor: pointer;
+    .imglogo img{
+        display: flex;
+        width: 50px;
+        height: 40px;
+        border-radius: 60%;
     }
 
-    nav stoggle:checked~.menu {
+    .main-quienes {
+        width: 100%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
     }
+
+    .sectionIndex {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .h1Inicio {
+        justify-content: center;
+        font-size: 2.5rem;
+        font-style: italic;
+    }
+    
+.carouselSlide{
+    padding: 50px;
+
+}
+
+}
+
+
+
+@media (max-width: 320px) {
+
+    body{
+        width: 120%;
+    }
+
+    header {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        background-image: url(../assets/img/menu.png);
+        background-repeat: no-repeat;
+        
+    }
+
+    .navegacion ul{
+        display: none;
+    }
+
+
+    .imglogo img{
+        display: flex;
+        width: 40px;
+        height: 30px;
+        border-radius: 60%;
+    }
+
+    .main-quienes {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionIndex {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+    }
+    
+    .h1Inicio {
+        justify-content: center;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+
+    .carouselSlide{
+        padding: 10px;
+    
+    }
+
+    footer ul{
+        width: 100%;
+        font-size: 10px;
+        display: flex;
+        padding-right: 100px;
+    }
+
+    footer ul img{
+        width: 10px;
+
+    }
+    
 }
