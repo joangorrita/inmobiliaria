@@ -1,0 +1,36 @@
+/*  Bases   */                       /*     */
+@import "./base/generales";
+@import "./base/_reset";
+
+
+/*  index   */
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./components/bootstrap";
+@import "./layout/footer";
+
+
+/*  contacto   */
+
+@import "./layout/header";
+@import "./layout/main-contacto";
+@import "./layout/footer";
+
+/*  lifestyle   */
+
+@import "./layout/header";
+@import "./layout/main-lifestyle";
+@import "./layout/footer";
+
+/*  quines somos   */
+
+@import "./layout/header";
+@import "./layout/main-quienes";
+@import "./layout/footer";
+
+/*  mi cuenta   */
+
+@import "./layout/header";
+@import "./layout/main-micuenta";
+@import "./layout/footer";

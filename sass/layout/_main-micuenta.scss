@@ -1,0 +1,36 @@
+body {
+    background-color: #8CB9BD;
+
+}
+
+.micuenta {
+    background-image: url(../assets/img/micuenta.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.titleform {
+    display: flex;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-decoration: overline;
+}
+
+.crear {
+    display: inline-block;
+    background-color: #AF9F92;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}

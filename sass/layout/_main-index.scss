@@ -1,0 +1,34 @@
+body {
+    background-color: #8CB9BD;
+
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 68.75rem;
+}
+
+.sectionIndex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.h1Inicio {
+    align-items: center;
+    font-size: 2.5rem;
+    font-style: italic;
+    padding: 100px;
+
+}
+
+
+.search {
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 100px;
+
+}

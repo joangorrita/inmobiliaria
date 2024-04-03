@@ -1,0 +1,73 @@
+body {
+    background-color: #8CB9BD;
+
+}
+
+.quienes {
+    background-image: url(../assets/img/fondoquienes.jpg);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.info h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.info p {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9fa57;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.Equipo {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    flex-direction: column;
+    padding: 100px;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.gente {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.imgEquipo {
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    gap: 30px;
+    margin-top: 30px;
+
+}

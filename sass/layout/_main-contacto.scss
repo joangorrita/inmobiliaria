@@ -1,0 +1,91 @@
+body {
+    background-color: #8CB9BD;
+
+}
+
+.divimgcontacto {
+    background-image: url(../assets/img/buscador.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.sectionsucursales {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.h1sucursales {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.divcajita {
+    box-shadow: 10px 30px 10px rgb(12, 11, 11);
+
+}
+
+
+.formulario {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+form input{
+
+    border-bottom: 3px solid black;
+}
+
+.form input:focus{
+    outline:invert;
+    color: #0400ff;
+
+}
+
+.titledatos {
+    display: flex;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-decoration: overline;
+    color: rgb(113, 224, 9);
+}
+
+.ingreso {
+    margin-bottom: 15px;
+    font-size: 12px;
+    border-radius: 3px;
+    width: 200px;
+    padding: 3px;
+
+}
+
+.boton {
+    background: fixed;
+    width: 60px;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 10px;
+    color: #f9f9fa;
+
+}

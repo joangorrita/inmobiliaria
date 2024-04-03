@@ -1,0 +1,36 @@
+/*carrousel index*/
+
+.carouselSlide{
+    padding-block: 30px;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #8cb9bd00;
+    width: 5%;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ffffff2d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-inner {
+    width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+
+}
