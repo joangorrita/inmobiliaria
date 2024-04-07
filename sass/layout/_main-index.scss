@@ -4,16 +4,18 @@ body {
 }
 
 main {
-    width: 100%;
+
     display: flex;
     flex-direction: column;
-    min-height: 68.75rem;
+
 }
 
 .sectionIndex {
     display: flex;
+    height: 400px;
     flex-direction: column;
     align-content: center;
+    justify-content: space-evenly;
 }
 
 
@@ -21,7 +23,7 @@ main {
     align-items: center;
     font-size: 2.5rem;
     font-style: italic;
-    padding: 100px;
+    
 
 }
 
@@ -29,6 +31,12 @@ main {
 .search {
     justify-content: center;
     font-family: "Montserrat", sans-serif;
-    padding: 100px;
+    
 
+}
+
+#carouselProductos div div img, #carouselProductos1 div div img {
+    object-fit: fill;
+    background-repeat: no-repeat;
+    padding: 1.875rem 0 3.125rem 0 ;
 }
