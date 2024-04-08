@@ -74,6 +74,12 @@ main {
   font-family: "Montserrat", sans-serif;
 }
 
+.section-carousel {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 #carouselProductos div div img, #carouselProductos1 div div img {
   object-fit: fill;
   background-repeat: no-repeat;
@@ -649,6 +655,9 @@ footer ul {
     justify-content: center;
     font-size: 1.5rem;
     font-style: italic;
+  }
+  .section-carousel {
+    width: 100%;
   }
   footer ul {
     width: 100%;

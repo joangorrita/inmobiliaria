@@ -35,6 +35,12 @@ main {
 
 }
 
+.section-carousel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 #carouselProductos div div img, #carouselProductos1 div div img {
     object-fit: fill;
     background-repeat: no-repeat;
