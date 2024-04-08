@@ -1,9 +1,6 @@
 
 @media (max-width: 320px) {
 
-
-
-
     .navegacion li a{
         font-size: 7px;
     }
@@ -24,6 +21,10 @@
 
     .section-carousel{
         width: 100%;
+    }
+
+    .carousel-inner{
+        width: 300px;
     }
 
 
