@@ -1,17 +1,35 @@
-//  @media (max-width: 768px){
-//     header{
-//         width: 100%;
-//     }
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+    }
 
-//     .contenedor{
-//         width: 100%;
-//     }
+    .contenedor {
+        width: 100%;
+    }
 
-//     .col-1{
-        
-//     }
+    .col-1 {
+        height: 95%;
+        background-repeat: repeat;
+    }
 
-//     .col-1 table{
-//         height: 100%;
-//     }
-// }
+    .lifeCajitas1{
+        height: 98%;
+    }
+    .lifeCajitas2{
+        height: 98%;
+    } 
+    
+    .lifeCajitas3{
+        height: 98%;
+    }
+
+    .contenedor p {
+        padding: 4px;
+    }
+
+    .contenedor ul {
+        padding: 4px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
