@@ -50,10 +50,6 @@ header {
   text-decoration: overline;
 }
 
-body {
-  background-color: #8CB9BD;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -83,8 +79,7 @@ main {
   justify-content: center;
   width: 100%;
 }
-
-#carouselProductos div div img, #carouselProductos1 div div img {
+.section-carousel #carouselProductos div div img, .section-carousel #carouselProductos1 div div img {
   object-fit: fill;
   background-repeat: no-repeat;
   padding: 1.875rem 0 3.125rem 0;
@@ -125,6 +120,7 @@ main {
 
 footer ul {
   width: 100%;
+  height: 100%;
   background-color: #e9c696;
   display: flex;
   text-align: center;
@@ -173,10 +169,6 @@ header {
 .navegacion ul a:hover {
   color: #003cff;
   text-decoration: overline;
-}
-
-body {
-  background-color: #8CB9BD;
 }
 
 .divimgcontacto {
@@ -258,6 +250,7 @@ form input {
 
 footer ul {
   width: 100%;
+  height: 100%;
   background-color: #e9c696;
   display: flex;
   text-align: center;
@@ -387,6 +380,7 @@ body {
 
 footer ul {
   width: 100%;
+  height: 100%;
   background-color: #e9c696;
   display: flex;
   text-align: center;
@@ -437,10 +431,6 @@ header {
   text-decoration: overline;
 }
 
-body {
-  background-color: #8CB9BD;
-}
-
 .quienes {
   background-image: url(../assets/img/fondoquienes.jpg);
   display: flex;
@@ -452,20 +442,17 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.info {
+.quienes .info {
   width: 100%;
   height: 50%;
   text-align: center;
 }
-
-.info h2 {
+.quienes .info h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   padding: 20px;
 }
-
-.info p {
+.quienes .info p {
   font-family: Arial, sans-serif;
   background-color: rgba(231, 228, 175, 0.5764705882);
   font-size: 16px;
@@ -503,6 +490,7 @@ body {
 
 footer ul {
   width: 100%;
+  height: 100%;
   background-color: #e9c696;
   display: flex;
   text-align: center;
@@ -553,10 +541,6 @@ header {
   text-decoration: overline;
 }
 
-body {
-  background-color: #8CB9BD;
-}
-
 .micuenta {
   background-image: url(../assets/img/micuenta.jpg);
   background-position: center;
@@ -588,6 +572,7 @@ body {
 
 footer ul {
   width: 100%;
+  height: 100%;
   background-color: #e9c696;
   display: flex;
   text-align: center;
@@ -809,33 +794,38 @@ footer ul {
 }
 /* mediaQ quienes */
 @media (max-width: 768px) {
-  .Equipo {
+  .quienes {
     width: 100%;
     height: 100%;
     padding: 100px;
   }
-  .imgEquipo {
-    width: 100%;
-    height: 100px;
-    gap: 10px;
-  }
-  .gente {
-    width: 50%;
-  }
 }
 @media (max-width: 320px) {
+  .quienes {
+    width: 100%;
+    border: 2px solid red;
+  }
   .info p {
+    width: 70%;
     font-size: 9px;
+    border: 2px solid rgb(249, 253, 9);
   }
-  .Equipo {
+  .contenedor {
     width: 100%;
-    height: 100%;
-    padding: 70px;
-  }
-  .imgEquipo {
-    width: 100%;
-    height: 35px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
     gap: 10px;
+    border: 2px solid rgb(13, 228, 13);
+  }
+  info {
+    width: 100%;
+    border: 2px solid rgb(153, 7, 211);
+  }
+  .imagenes {
+    width: 100%;
+    flex-wrap: wrap;
+    border: 2px solid rgb(143, 109, 153);
   }
   footer ul {
     font-size: 7px;

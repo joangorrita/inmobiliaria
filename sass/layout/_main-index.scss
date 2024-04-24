@@ -1,7 +1,3 @@
-body {
-    background-color: #8CB9BD;
-
-}
 
 main {
 
@@ -39,10 +35,12 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
+
+    #carouselProductos div div img, #carouselProductos1 div div img {
+        object-fit: fill;
+        background-repeat: no-repeat;
+        padding: 1.875rem 0 3.125rem 0 ;
+    }
 }
 
-#carouselProductos div div img, #carouselProductos1 div div img {
-    object-fit: fill;
-    background-repeat: no-repeat;
-    padding: 1.875rem 0 3.125rem 0 ;
-}
+
