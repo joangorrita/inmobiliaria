@@ -2,13 +2,48 @@
 
     header {
         width: 100%;
+
+    }
+
+    .contenedorlife{
+        position: relative;
+        display: inline-block;
+    }
+
+    .lifeCajitas1 ul {
+        font-size: 12px;
+    }
+    .lifeCajitas2 ul {
+        font-size: 12px;
+    }
+    .lifeCajitas3 ul {
+        font-size: 12px;
+    }
+
+
+
+    .lifeCajitas1{
+        margin-top: 5%;
+        grid-column: 1/2;
+        height: 25%;
+    }
+
+    .lifeCajitas2{
+        grid-column: 1/2;
+        height: 25%;
+    } 
+
+    .lifeCajitas3{
+        grid-column: 1/2;
+        height: 25%;
     }
 
     footer ul{
+        width: 100%;
         font-size: 7px;
-        display: flex;
+        display: inline-block;
         justify-content: space-evenly;
-        padding-right: 5px;
+
     }
     
 }
